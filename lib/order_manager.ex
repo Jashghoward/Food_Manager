@@ -4,10 +4,6 @@ defmodule OrderManager do
   defstruct guest_name: "", items: []
 
   def create_order(guest_name, items) do
-
-
-
-
     %__MODULE__{guest_name: guest_name, items: items}
   end
 
