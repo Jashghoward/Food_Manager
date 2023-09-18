@@ -4,6 +4,8 @@ defmodule FoodManager do
     "pizza" => 12.0,
 
 
+
+
     "salad" => 8.0
   }
 
