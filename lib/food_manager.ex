@@ -14,6 +14,8 @@ defmodule FoodManager do
 
 
       nil -> {:error, "Food not found"}
+
+
       cost -> {:ok, cost}
     end
   end
