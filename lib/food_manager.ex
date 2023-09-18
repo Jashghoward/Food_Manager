@@ -1,6 +1,8 @@
 defmodule FoodManager do
   @foods %{
     "burger" => 10.0,
+
+
     "pizza" => 12.0,
     "salad" => 8.0
   }
