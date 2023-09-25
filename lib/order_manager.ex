@@ -19,6 +19,9 @@ defmodule OrderManager do
 
 
         {:ok, cost} -> acc + cost
+
+
+
         {:error, _} -> acc
 
       end
