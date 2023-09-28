@@ -6,6 +6,9 @@ defmodule FoodManager do
 
 
 
+
+
+
     "salad" => 8.0
   }
 
