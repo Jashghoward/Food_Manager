@@ -16,6 +16,9 @@ defmodule FoodManager do
     case Map.get(@foods, String.downcase(food)) do
       nil -> {:error, "Food not found"}
 
+
+
+
       cost -> {:ok, cost}
     end
   end
