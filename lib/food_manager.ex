@@ -11,6 +11,9 @@ defmodule FoodManager do
 
 
 
+
+
+
   def get_food_cost(food) do
 
     case Map.get(@foods, String.downcase(food)) do
